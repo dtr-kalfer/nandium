@@ -147,15 +147,3 @@ _Note: You may need to create `config.php` first: `sudo touch /var/www/html/weat
 
 Your application is now set up!
 
-### 9. (Optional) Set Up Cron Job for Data Archiving
-
--   Open the crontab editor:
-    ```bash
-    crontab -e
-    ```
--   Add the following lines, making sure to use the correct absolute path to your PHP files:
-    ```cron
-    0 3 * * * /usr/bin/php /var/www/html/weather_app/met_api.php > /dev/null 2>&1
-    5 3 * * * /usr/bin/php /var/www/html/weather_app/pirate_api.php > /dev/null 2>&1
-    ```
--   Save and exit the editor.
