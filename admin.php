@@ -1,0 +1,59 @@
+<?php
+session_start();
+require_once 'dbParams.php';
+
+$message = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    $stmt = $conn->prepare("SELECT id, username, password_hash, role FROM users WHERE username = ?");
+    $stmt->bind_param("s", $username);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    if ($user = $result->fetch_assoc()) {
+        if (password_verify($password, $user['password_hash'])) {
+            $_SESSION['user_id'] = $user['id'];
+            $_SESSION['username'] = $user['username'];
+            $_SESSION['role'] = $user['role'];
+            header("Location: new_records.php"); // Redirect to a protected page
+            exit();
+        } else {
+            $message = '<div class="error">Invalid password.</div>';
+        }
+    } else {
+        $message = '<div class="error">No user found with that username.</div>';
+    }
+
+    $stmt->close();
+    $conn->close();
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <?php echo $message; ?>
+        <form method="POST" action="">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
