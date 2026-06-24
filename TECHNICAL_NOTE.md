@@ -3,6 +3,8 @@
 **Abstract:**
 Access to reliable, localized weather forecasts is critical for climate-resilient agriculture. Smallholder farmers, particularly in regions with variable microclimates, require actionable data to mitigate risks associated with post-harvest activities, such as crop drying. This technical note describes a lightweight, open-source PHP web application designed to address this need. The dashboard provides a comparative 24-hour forecast by aggregating data from two distinct meteorological models: the Norwegian Meteorological Institute (MET Norway) and Pirate Weather (a Dark Sky API-compatible service). By offering a simple, self-hostable platform, the tool empowers local communities and agricultural extension officers to make more informed, data-driven decisions. The system includes features for collecting user feedback on forecast accuracy, creating an automated data-archiving pipeline for long-term analysis, and role-based access for custom location forecasting. This project is aligned with the principles of a Digital Public Good (DPG), promoting open data, sustainability, and community empowerment.
 
+![Nandium App](./readme_assets/nandium_app_show.avif)
+
 ---
 
 **1. Introduction**
