@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#120c2e,#181238);
+    color: white;
+    margin: 0;
+    padding: 20px;
+    background-color: #0f3c8c;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: bisque;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ecc; /* White on hover */
+}
+
+/* DEFAULT CARD */
+.hour {
+    background: rgba(255,255,255,0.12);
+    padding: 15px;
+    border-radius: 12px;
+    width: 110px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hour:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.hour:nth-child(1) {
+  border: 2px solid yellow;
+}
+
+/* RAIN CARD */
+/* Light drizzle */
+.rain00 { background: rgba(0,150,200,0.20); }
+.rain02 { background: rgba(0,150,200,0.30); }
+.rain04 { background: rgba(0,150,200,0.40); }
+.rain06 { background: rgba(0,150,200,0.50); }
+.rain08 { background: rgba(0,150,200,0.60); }
+
+/* Moderate rain */
+.rain10 { background: rgba(0,150,200,0.70); }
+.rain12 { background: rgba(0,150,200,0.75); }
+.rain14 { background: rgba(0,150,200,0.80); }
+.rain16 { background: rgba(0,150,200,0.85); }
+.rain18 { background: rgba(0,150,200,0.90); }
+
+/* Heavy rain */
+.rain20 { 
+    background: rgba(0,150,200,1.0);
+    border: 2px solid rgba(255,255,255,0.9);
+}
+
+.time {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.temp {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+h2, h3, h4, .small {
+    text-align: center;
+}
+
+.small {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* ⭐ MOBILE — 3 COLUMNS */
+@media (max-width: 600px) {
+
+    .container {
+        justify-content: center;
+    }
+
+    .hour {
+        width: calc(33.33% - 10px);
+        min-width: unset;
+    }
+
+}
