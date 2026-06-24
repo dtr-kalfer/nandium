@@ -6,6 +6,11 @@ A lightweight, self-hostable PHP web application designed to provide localized, 
 
 This project is designed with the principles of a **Digital Public Good (DPG)** in mind: it is open-source, relevant to sustainable development goals, and includes safeguards for privacy.
 
+![nandium sample|697](./readme_assets/nandium_app.avif)
+
+![nandium app show](./readme_assets/nandium_app_show.avif)
+
+
 ---
 
 ## ⚠️ Important Disclaimer
