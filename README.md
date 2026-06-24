@@ -4,7 +4,7 @@
 
 A lightweight, self-hostable PHP web application designed to provide localized, short-term weather forecasts. This tool helps communities, especially in the agricultural sector, make informed decisions by comparing data from multiple reliable weather sources.
 
-This project is designed with the principles of a **Digital Public Good (DPG)** in mind: it is open-source, relevant to sustainable development goals, and includes safeguards for privacy.
+This project is designed with the principles of a **Digital Public Good (DPG)** in mind: it is open-source, relevant to sustainable development goals, and includes safeguards for privacy (image handling not yet supported).
 
 ![nandium sample|697](./readme_assets/nandium_app.avif)
 
@@ -78,7 +78,15 @@ This application relies on external APIs. You are responsible for adhering to th
     *   You will be redirected to the setup page (`new_records.php`). Fill in your default location, API keys, and other settings.
 
 ---
+## Credits
 
+- MET Norway [MET Norway](https://www.met.no/en)
+- Pirate Weather [Pirate Weather](https://pirateweather.net/en/latest/)
+- MET Weather API icons licensed under the [MITLicense]- [weather icons](https://github.com/YR/weather-symbols/)
+
+---
 ## License
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
+
+---
