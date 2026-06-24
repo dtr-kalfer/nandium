@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Nandium Weather Dashboard</title>
+    <style>
+        :root {
+            --bg-color: #0f0f12;
+            --surface-color: #1a1a24;
+            --accent-color: #e53e3e;
+            --accent-hover: #c53030;
+            --text-primary: #f7fafc;
+            --text-secondary: #a0aec0;
+            --border-color: #2d3748;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 750px;
+            width: 100%;
+            padding: 40px 20px;
+        }
+
+        .header {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--text-primary);
+            margin: 0 0 10px 0;
+            font-size: 2rem;
+        }
+
+        h2 {
+            color: var(--accent-color);
+            font-size: 1.3rem;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        p, ul {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background-color: var(--surface-color);
+            border-left: 4px solid var(--accent-color);
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            color: var(--text-primary);
+        }
+
+        .btn-home {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: var(--text-primary);
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+            margin-top: 40px;
+        }
+
+        .btn-home:hover {
+            background-color: var(--accent-hover);
+        }
+
+        footer {
+            margin-top: 60px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1>Privacy Policy</h1>
+            <p>Aligned with the United Nations Digital Public Goods (DPG) Standard</p>
+        </header>
+
+        <main>
+            <p>This open-source localized weather forecasting application is built as a climate-resilience tool to support smallholder farmers, research practitioners, and local communities. We value your absolute privacy and strictly practice <strong>Data Minimization</strong> in compliance with DPG Standard 4.</p>
+
+            <div class="highlight-box">
+                <p><strong>Zero Personal Tracking Notice:</strong> This application does not collect, log, or share any Personally Identifiable Information (PII). We do not collect, capture, or store your IP address, device IDs, or network configurations.</p>
+            </div>
+
+            <h2>1. Information We Retrieve and Store</h2>
+            <p>When you voluntarily choose to submit feedback via our evaluation form to help validate the accuracy of our forecasting engine, we only record the following non-identifiable, objective parameters in our MySQL database:</p>
+            <ul>
+                <li>The user-entered custom location (or dynamic region coordinates text).</li>
+                <li>Outdoor activity status (Yes/No) and the specific activity type selected (e.g., Dry Palay, Laundry, Outdoor Event).</li>
+								<li>The approximate time and date of the activity.</li>
+                <li>Your subjective 0-to-10 rating of the application's forecast accuracy.</li>
+                <li>Your assessment of whether the forecast helped you plan or protect assets.</li>
+                <li>Your choice on which backend meteorological model (MET Norway or Pirate Weather) was more precise.</li>
+                <li>The timestamp of the submission.</li>
+								<li>Comment or suggested improvement for the app.</li>
+            </ul>
+
+            <h2>2. Anti-Spam & Rate Limiting</h2>
+            <p>To keep this application lightweight and secure against server resource abuse without compromising your privacy, we implement a strictly local 5-minute wait timer for the feedback response form. This configuration relies entirely on temporary server-side session tokens or local cookies. It does not look at, write, or track your network IP address.</p>
+
+            <h2>3. Third-Party API Data Requests</h2>
+            <p>When fetching live hourly updates, the app queries third-party providers (MET Norway and Pirate Weather). These requests are made directly from our application server backend—not your browser—acting as a proxy. Your custom coordinate searches are sent to these providers anonymously to pull the correct localized forecast matrix.</p>
+
+            <h2>4. Academic Research & Open Data Use</h2>
+            <p>The anonymous metrics collected via the feedback form are utilized by affiliated academic research departments and community extension programs to run statistical error checks, improve the dual-model matching algorithm, and gauge local agricultural impact. Because the dataset contains entirely anonymous metrics, it is safe for open-science replication and open-source validation pipelines.</p>
+
+            <!-- Home Anchor Tag Link going back to index.php -->
+            <a href="index.php" class="btn-home">← Back to Weather App</a>
+        </main>
+
+        <footer>
+            <p>© 2026 Ferdinand Tumulak • Open Source under the MIT License</p>
+        </footer>
+    </div>
+
+</body>
+</html>
