@@ -100,11 +100,13 @@ This application relies on external APIs. You are responsible for adhering to th
 For more information see [INSTALL.md](INSTALL.md)
 
 ---
+
 ## Privacy
 
 For more information see [PRIVACY.mdj](PRIVACY.md)
 
 ---
+
 ## Credits
 
 - MET Norway [MET Norway](https://www.met.no/en)
@@ -112,6 +114,7 @@ For more information see [PRIVACY.mdj](PRIVACY.md)
 - MET Weather API icons licensed under the [MITLicense]- [weather icons](https://github.com/YR/weather-symbols/)
 
 ---
+
 ## License
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
