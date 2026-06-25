@@ -29,6 +29,28 @@ This project contributes to the following SDGs:
 
 ---
 
+## Background & Use Case
+
+Standard national news agencies and meteorological sites often provide broad, regional weather forecasts that lack the granularity needed for hyper-local decision-making. This application was explicitly built to solve a local community challenge: providing site-specific, latitude-and-longitude-based 24-hour weather tracking to assist local farmers in Burauen, Philippines, with critical post-harvest activities—specifically, determining optimal windows for drying *palay* (unhusked rice) to prevent crop spoilage.
+
+By leveraging highly precise coordination models (MET Norway and Pirate Weather), the app brings advanced spatial weather data down to a practical, accessible level for everyday community users.
+
+---
+
+## Project Status & Deployment
+
+This project is currently in the **Active Development / Alpha Testing** phase. 
+
+### Current Deployment & Field Testing:
+* **Community Sandbox:** The application is actively being utilized by a small cohort of local farmers and community stakeholders in Burauen to manage daily agricultural operations.
+* **Field Validation:** Informal, grassroots testing is underway via field visits across various micro-climates in the Philippines to verify coordinates, monitor application stability, and gather user feedback on forecast usefulness and accuracy. 
+
+### Institutional Engagement (In Progress):
+* **Academic Alignment:** Early-stage exploratory discussions are ongoing with local institutional research and community extension offices to define formal evaluation frameworks and sustainable scaling pathways.
+* **Policy Note:** While the application is being field-tested by individuals working within agricultural frameworks, it does not currently hold official agency or institutional endorsement. It operates strictly as an open-source community public good.
+
+---
+
 ## Features
 
 *   **Dual Weather Sources:** Compares 24-hour forecasts from MET Norway and Pirate Weather.
