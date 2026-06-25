@@ -99,6 +99,10 @@ This application relies on external APIs. You are responsible for adhering to th
 
 For more information see [INSTALL.md](INSTALL.md)
 
+---
+## Privacy
+
+For more information see [PRIVACY.mdj](PRIVACY.md)
 
 ---
 ## Credits
