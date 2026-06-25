@@ -75,6 +75,9 @@ This application relies on external APIs. You are responsible for adhering to th
     *   Navigate to `weather_app/login.php` and log in as the administrator.
     *   You will be redirected to the setup page (`new_records.php`). Fill in your default location, API keys, and other settings.
 
+For more information see [INSTALL.md](INSTALL.md)
+
+
 ---
 ## Credits
 
