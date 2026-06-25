@@ -1,6 +1,7 @@
 # Nandium Weather Dashboard
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20838256.svg)](https://doi.org/10.5281/zenodo.20838256)
 
 A lightweight, self-hostable PHP web application designed to provide localized, short-term weather forecasts. This tool helps communities, especially in the agricultural sector, make informed decisions by comparing data from multiple reliable weather sources.
 
