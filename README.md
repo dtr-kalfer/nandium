@@ -60,7 +60,7 @@ This project is currently in the **Active Development / Alpha Testing** phase.
     *   **Staff Role:** Can add and manage custom locations for on-demand forecasts, ideal for field officers.
 *   **User Feedback System:** Collects user feedback on forecast accuracy to help validate and improve the models.
 *   **Automated Data Archiving:** Includes cron job-ready API scripts to automatically save daily forecasts as JSON and CSV files for historical analysis.
-*   **Privacy-Conscious:** Designed to be self-hosted, giving you full control over your data. See `PRIVACY.md` for details.
+*   **Privacy-Conscious:** Designed to be self-hosted, giving you full control over your data. See [PRIVACY.md](PRIVACY.md) for details.
 
 ---
 
