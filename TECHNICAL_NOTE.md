@@ -43,7 +43,7 @@ To manage API call efficiency and respect service limits, the application implem
 
 **4. Conclusion & Future Work**
 
-This Community Weather Forecast Dashboard serves as a practical tool for climate adaptation at the local level. By making weather data more accessible and context-specific, it directly supports agricultural planning and community resilience. The automated archiving feature paves the way for future work in analyzing microclimate trends and validating model performance over the long term.
+Nandium Weather Dashboard serves as a practical tool for climate adaptation at the local level. By making weather data more accessible and context-specific, it directly supports agricultural planning and community resilience. The automated archiving feature paves the way for future work in analyzing microclimate trends and validating model performance over the long term.
 
 Future development could include:
 -   Integration of more local or regional weather models.
