@@ -70,7 +70,7 @@ This application relies on external APIs. You are responsible for adhering to th
 
 *   **MET Norway:**
     *   **Policy:** Data is provided for free under a Creative Commons 4.0 license.
-    *   **Requirement:** You **must** provide a valid `User-Agent` in all requests that identifies your application. Our configuration page requires this.
+    *   **Requirement:** You **must** provide a valid `User-Agent` (Valid Email for MET API) in all requests that identifies your application. Our configuration page requires this.
     *   **Limits:** There are no hard rate limits, but caching is strongly encouraged to avoid overloading their servers. This app implements a default 30-minute cache.
 
 *   **Pirate Weather:**
