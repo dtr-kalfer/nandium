@@ -49,5 +49,6 @@ Future development could include:
 -   Integration of more local or regional weather models.
 -   Automated analysis and visualization of the archived feedback and forecast data.
 -   SMS or email-based weather alerts for registered users.
+-   Image handling, Cloud Pattern Recognition and AI enhanced forecast.
 
 As an open-source project, we welcome contributions that extend its functionality and adapt it to the needs of other communities worldwide.
