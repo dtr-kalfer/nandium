@@ -1,6 +1,6 @@
 # Privacy Policy
 
-This document outlines the data handling practices of the Community Weather Forecast Dashboard. As a self-hosted application designed in alignment with Digital Public Good principles, we prioritize transparency and user control.
+This document outlines the data handling practices of the Nandium Weather Dashboard. As a self-hosted application designed in alignment with Digital Public Good principles, we prioritize transparency and user control.
 
 ---
 
